@@ -1,0 +1,20 @@
+default:
+Visibility - Accessible only within the same package.
+Inheritance - no.
+Example - 'class MyClass'.
+
+public:
+Visibility - Accessible within every package in the project.
+Inheritance - Yes.
+Example - 'public class MyClass'.
+
+private:
+public:
+Visibility - Accessible only within the class.
+Inheritance - no.
+Example - 'private class MyClass'.
+
+protected:
+Visibility - Accessible within the same package and subclasses.
+Inheritance - yes.
+Example - 'private class MyClass'.
