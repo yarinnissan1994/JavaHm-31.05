@@ -86,7 +86,7 @@ public class Main {
 //        *** Enums ***
 //        DayOfWeek[] daysArray = DayOfWeek.values();
 //        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Pealse pick on day from the week (1-7): ");
+//        System.out.print("Please pick on day from the week (1-7): ");
 //        int userNumber = scanner.nextInt();
 //        System.out.println("You picked "+daysArray[userNumber-1]);
 
@@ -97,6 +97,11 @@ public class Main {
 //        List<BaseProduct> products = new ArrayList<>();
 //        products.add(Tshirt);
 //        products.add(Iphone);
+//
+//
+//        products.get(0).printDetails();
+//        System.out.println();
+//        products.get(1).printDetails();
 //
 //        BaseProduct.checkInstanceBeforePrinting(products.get(0));
 //        System.out.println();

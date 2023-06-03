@@ -14,7 +14,7 @@ public class BaseProduct {
     public void printDetails(){
         System.out.println("Product name: "+ name);
         System.out.println("Product description: "+ description);
-        System.out.printf("Price: %.2f$", price);
+        System.out.printf("Price: %,.2f$", price);
     }
 
     public static void checkInstanceBeforePrinting(BaseProduct product){

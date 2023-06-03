@@ -1,8 +1,8 @@
 package ClassAccesModifiers;
 
 public class Bank {
-    private final String clientName;
-    private final int accountNumber;
+    private final String CLIENT_NAME;
+    private final int ACCOUNT_NUMBER;
     private double balance;
 
     public void depositToBalance(double amount){
@@ -18,8 +18,8 @@ public class Bank {
     }
 
     public Bank(String clientName, int accountNumber, double firstDeposit) {
-        this.clientName = clientName;
-        this.accountNumber = accountNumber;
+        this.CLIENT_NAME = clientName;
+        this.ACCOUNT_NUMBER = accountNumber;
         depositToBalance(firstDeposit);
     }
 }
